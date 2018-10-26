@@ -1,7 +1,7 @@
-class ProfileController < ApplicationController
-  before_action :set_avatar, only: [:index]
+class AvatarsController < ApplicationController
+  before_action :set_avatar, only: [:edit]
 
-  def index
+  def edit
   end
 
   private
